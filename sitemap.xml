@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2020-04-24T11:45:31-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/alec-b.-luro/</loc>
     <lastmod>2020-04-24T11:45:31-05:00</lastmod>
   </url>
@@ -14,6 +19,21 @@
   
   <url>
     <loc>/authors/</loc>
+    <lastmod>2020-04-24T11:45:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/egg_rejection_foraging/</loc>
+    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/mark-e.-hauber/</loc>
+    <lastmod>2020-04-24T11:45:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
     <lastmod>2020-04-24T11:45:31-05:00</lastmod>
   </url>
   
@@ -33,11 +53,6 @@
   </url>
   
   <url>
-    <loc>/publication-type/2/</loc>
-    <lastmod>2020-04-24T11:45:31-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/a.a.-louder/</loc>
     <lastmod>2020-04-23T20:26:02-05:00</lastmod>
   </url>
@@ -50,16 +65,6 @@
   <url>
     <loc>/author/m.-dainson/</loc>
     <lastmod>2020-04-23T20:26:02-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/mark-e.-hauber/</loc>
-    <lastmod>2020-04-24T11:45:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-04-24T11:45:31-05:00</lastmod>
   </url>
   
   <url>
