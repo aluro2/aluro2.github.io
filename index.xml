@@ -5,12 +5,25 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Alec B. Luro</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Alec B. Luro © 2020</copyright><lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Alec B. Luro © 2020</copyright><lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/alec_profile_photo.JPG</url>
       <title>Alec B. Luro</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>/cv/</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/cv/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-1.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-2.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-3.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-4.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-5.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Avian diet and foraging ecology constrain foreign egg recognition and rejection</title>
