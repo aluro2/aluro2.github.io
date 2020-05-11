@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alec B. Luro</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.alecluro.com/</link>
+      <atom:link href="http://www.alecluro.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Alec B. Luro</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Alec B. Luro © 2020</copyright><lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/alec_profile_photo.JPG</url>
+      <url>http://www.alecluro.com/img/alec_profile_photo.JPG</url>
       <title>Alec B. Luro</title>
-      <link>/</link>
+      <link>http://www.alecluro.com/</link>
     </image>
     
     <item>
       <title>Curriculum Vitae</title>
-      <link>/cv/</link>
+      <link>http://www.alecluro.com/cv/</link>
       <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/cv/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-1.png&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-2.png&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-3.png&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-4.png&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-5.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+      <guid>http://www.alecluro.com/cv/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://www.alecluro.com/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-1.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;http://www.alecluro.com/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-2.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;http://www.alecluro.com/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-3.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;http://www.alecluro.com/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-4.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;http://www.alecluro.com/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-5.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Avian diet and foraging ecology constrain foreign egg recognition and rejection</title>
-      <link>/publication/egg_rejection_foraging/</link>
+      <link>http://www.alecluro.com/publication/egg_rejection_foraging/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/egg_rejection_foraging/</guid>
+      <guid>http://www.alecluro.com/publication/egg_rejection_foraging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Campus Bird Window Strike Survey</title>
-      <link>/project/campus-bird-window-strike-survey/</link>
+      <link>http://www.alecluro.com/project/campus-bird-window-strike-survey/</link>
       <pubDate>Thu, 23 Apr 2020 16:07:12 -0500</pubDate>
-      <guid>/project/campus-bird-window-strike-survey/</guid>
+      <guid>http://www.alecluro.com/project/campus-bird-window-strike-survey/</guid>
       <description></description>
     </item>
     
     <item>
       <title>University of Illinois Bird Window Strike Campus Survey Fall 2019</title>
-      <link>/campus_bird_window_survey_page/</link>
+      <link>http://www.alecluro.com/campus_bird_window_survey_page/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/campus_bird_window_survey_page/</guid>
+      <guid>http://www.alecluro.com/campus_bird_window_survey_page/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/rmarkdown-libs/leaflet/leaflet.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/rmarkdown-libs/leafletfix/leafletfix.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/rmarkdown-libs/rstudio_leaflet/rstudio_leaflet.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/leaflet-binding/leaflet.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/rmarkdown-libs/leaflet-markercluster/MarkerCluster.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;link href=&#34;/rmarkdown-libs/leaflet-markercluster/MarkerCluster.Default.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/leaflet-markercluster/leaflet.markercluster.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/leaflet-markercluster/leaflet.markercluster.freezable.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/leaflet-markercluster/leaflet.markercluster.layersupport.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://www.alecluro.com/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://www.alecluro.com/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;http://www.alecluro.com/rmarkdown-libs/leaflet/leaflet.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;http://www.alecluro.com/rmarkdown-libs/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;http://www.alecluro.com/rmarkdown-libs/leafletfix/leafletfix.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;http://www.alecluro.com/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://www.alecluro.com/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;http://www.alecluro.com/rmarkdown-libs/rstudio_leaflet/rstudio_leaflet.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;http://www.alecluro.com/rmarkdown-libs/leaflet-binding/leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;http://www.alecluro.com/rmarkdown-libs/leaflet-markercluster/MarkerCluster.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;link href=&#34;http://www.alecluro.com/rmarkdown-libs/leaflet-markercluster/MarkerCluster.Default.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;http://www.alecluro.com/rmarkdown-libs/leaflet-markercluster/leaflet.markercluster.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://www.alecluro.com/rmarkdown-libs/leaflet-markercluster/leaflet.markercluster.freezable.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://www.alecluro.com/rmarkdown-libs/leaflet-markercluster/leaflet.markercluster.layersupport.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;&lt;img src=&#34;Figs/birds_by_species-1.png&#34; width=&#34;1152&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
@@ -114,44 +114,44 @@
     
     <item>
       <title>When are egg-rejection cues perceived? A test using thermochromic eggs in an avian brood parasite host</title>
-      <link>/publication/thermo_eggs/</link>
+      <link>http://www.alecluro.com/publication/thermo_eggs/</link>
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/thermo_eggs/</guid>
+      <guid>http://www.alecluro.com/publication/thermo_eggs/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Contribution&lt;/strong&gt;: Spectral reflectnace measurements, avian visual modeling analyses &amp;amp; Figures 1-2&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The chemical basis of a signal of individual identity: shell pigment concentrations track the unique appearance of Common Murre eggs.</title>
-      <link>/publication/murre_egg_chemical_comp/</link>
+      <link>http://www.alecluro.com/publication/murre_egg_chemical_comp/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/murre_egg_chemical_comp/</guid>
+      <guid>http://www.alecluro.com/publication/murre_egg_chemical_comp/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Contribution&lt;/strong&gt;: Avian visual modeling analyses &amp;amp; Figures 2-5&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Interannual repeatability of eggshell phenotype in individualfemale Common Murres (Uria aalge)</title>
-      <link>/publication/murre_egg_repeatability/</link>
+      <link>http://www.alecluro.com/publication/murre_egg_repeatability/</link>
       <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/murre_egg_repeatability/</guid>
+      <guid>http://www.alecluro.com/publication/murre_egg_repeatability/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Contribution&lt;/strong&gt;: Statistical analyses, Table 1 and Figure 3&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Which egg features predict egg rejection responses in American robins? Replicating Rothstein’s (1982) study</title>
-      <link>/publication/rothstein_replication/</link>
+      <link>http://www.alecluro.com/publication/rothstein_replication/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rothstein_replication/</guid>
+      <guid>http://www.alecluro.com/publication/rothstein_replication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A test of the nest sanitation hypothesis for the evolution of foreign egg rejection in an avian brood parasite rejecter host species</title>
-      <link>/publication/nest_sanitation/</link>
+      <link>http://www.alecluro.com/publication/nest_sanitation/</link>
       <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/nest_sanitation/</guid>
+      <guid>http://www.alecluro.com/publication/nest_sanitation/</guid>
       <description></description>
     </item>
     

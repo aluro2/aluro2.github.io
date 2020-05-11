@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | Alec B. Luro</title>
-    <link>/publication_types/</link>
-      <atom:link href="/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.alecluro.com/publication_types/</link>
+      <atom:link href="http://www.alecluro.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Alec B. Luro © 2020</copyright><lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/alec_profile_photo.JPG</url>
+      <url>http://www.alecluro.com/img/alec_profile_photo.JPG</url>
       <title>Publication_types</title>
-      <link>/publication_types/</link>
+      <link>http://www.alecluro.com/publication_types/</link>
     </image>
     
     <item>
       <title>2</title>
-      <link>/publication-type/2/</link>
+      <link>http://www.alecluro.com/publication-type/2/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/publication-type/2/</guid>
+      <guid>http://www.alecluro.com/publication-type/2/</guid>
       <description></description>
     </item>
     
