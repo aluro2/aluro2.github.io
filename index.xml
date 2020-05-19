@@ -5,12 +5,28 @@
     <link>http://www.alecluro.com/</link>
       <atom:link href="http://www.alecluro.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Alec B. Luro</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Alec B. Luro © 2020</copyright><lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Alec B. Luro © 2020</copyright><lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://www.alecluro.com/img/alec_profile_photo.JPG</url>
       <title>Alec B. Luro</title>
       <link>http://www.alecluro.com/</link>
     </image>
+    
+    <item>
+      <title>The ecological context and fitness impact of categorical perception: a comment on Green et al.</title>
+      <link>http://www.alecluro.com/publication/beheco_categorical_perception/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.alecluro.com/publication/beheco_categorical_perception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Avian diet and foraging ecology constrain foreign egg recognition and rejection</title>
+      <link>http://www.alecluro.com/publication/egg_rejection_foraging/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.alecluro.com/publication/egg_rejection_foraging/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Curriculum Vitae</title>
@@ -23,14 +39,6 @@
 &lt;img src=&#34;http://www.alecluro.com/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-4.png&#34; alt=&#34;&#34;&gt;
 &lt;img src=&#34;http://www.alecluro.com/img/Alec_Luro_CV_2020/Alec_Luro_CV_2020-5.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Avian diet and foraging ecology constrain foreign egg recognition and rejection</title>
-      <link>http://www.alecluro.com/publication/egg_rejection_foraging/</link>
-      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.alecluro.com/publication/egg_rejection_foraging/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -131,7 +139,7 @@
     </item>
     
     <item>
-      <title>Interannual repeatability of eggshell phenotype in individualfemale Common Murres (Uria aalge)</title>
+      <title>Interannual repeatability of eggshell phenotype in individual female Common Murres (Uria aalge)</title>
       <link>http://www.alecluro.com/publication/murre_egg_repeatability/</link>
       <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
       <guid>http://www.alecluro.com/publication/murre_egg_repeatability/</guid>

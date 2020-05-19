@@ -5,7 +5,7 @@
     <link>http://www.alecluro.com/author/alec-b.-luro/</link>
       <atom:link href="http://www.alecluro.com/author/alec-b.-luro/index.xml" rel="self" type="application/rss+xml" />
     <description>Alec B. Luro</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Alec B. Luro © 2020</copyright><lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Alec B. Luro © 2020</copyright><lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://www.alecluro.com/img/alec_profile_photo.JPG</url>
       <title>Alec B. Luro</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>The ecological context and fitness impact of categorical perception: a comment on Green et al.</title>
+      <link>http://www.alecluro.com/publication/beheco_categorical_perception/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.alecluro.com/publication/beheco_categorical_perception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Avian diet and foraging ecology constrain foreign egg recognition and rejection</title>
       <link>http://www.alecluro.com/publication/egg_rejection_foraging/</link>
-      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
       <guid>http://www.alecluro.com/publication/egg_rejection_foraging/</guid>
       <description></description>
     </item>
