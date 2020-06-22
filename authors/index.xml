@@ -5,7 +5,7 @@
     <link>http://www.alecluro.com/authors/</link>
       <atom:link href="http://www.alecluro.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Alec B. Luro © 2020</copyright><lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Alec B. Luro © 2020</copyright><lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://www.alecluro.com/img/alec_profile_photo.JPG</url>
       <title>Authors</title>
@@ -15,8 +15,32 @@
     <item>
       <title>Alec B. Luro</title>
       <link>http://www.alecluro.com/author/alec-b.-luro/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       <guid>http://www.alecluro.com/author/alec-b.-luro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alexandra N. Harmon-Threatt</title>
+      <link>http://www.alecluro.com/author/alexandra-n.-harmon-threatt/</link>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.alecluro.com/author/alexandra-n.-harmon-threatt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Scott Clem</title>
+      <link>http://www.alecluro.com/author/c.-scott-clem/</link>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.alecluro.com/author/c.-scott-clem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taylor M. Sparbanie</title>
+      <link>http://www.alecluro.com/author/taylor-m.-sparbanie/</link>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.alecluro.com/author/taylor-m.-sparbanie/</guid>
       <description></description>
     </item>
     
