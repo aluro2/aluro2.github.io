@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Campus_bird_window_survey_pages | Alec B. Luro</title>
+    <link>http://www.alecluro.com/campus_bird_window_survey_page/</link>
+      <atom:link href="http://www.alecluro.com/campus_bird_window_survey_page/index.xml" rel="self" type="application/rss+xml" />
+    <description>Campus_bird_window_survey_pages</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Alec B. Luro © 2020</copyright>
+    <image>
+      <url>http://www.alecluro.com/img/alec_profile_photo.JPG</url>
+      <title>Campus_bird_window_survey_pages</title>
+      <link>http://www.alecluro.com/campus_bird_window_survey_page/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>http://www.alecluro.com/campus_bird_window_survey_page/bird_leaflet_map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.alecluro.com/campus_bird_window_survey_page/bird_leaflet_map/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
