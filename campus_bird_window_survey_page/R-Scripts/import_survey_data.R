@@ -14,10 +14,16 @@ bird_data_url <-
 
 
 bird_data <-
-  bird_data_url %>% 
-  gs_read(., ws = 1) %>% 
-  clean_names() %>% 
-  mutate(date_mm_dd_yyyy = lubridate::mdy(date_mm_dd_yyyy)) %>% 
+  bird_data_url %>%
+  gs_read(., ws = 1) %>%
+  clean_names() %>%
+  mutate(date_mm_dd_yyyy = lubridate::mdy(date_mm_dd_yyyy)) %>%
   select(-collector_name_s)
 
-write.csv(bird_data, "Data/UIUC_bird_survey_data_backup.csv")
+dataset_name <-
+  paste("Data/UIUC_bird_survey_data_backup_",
+        lubridate::as_date(bird_data_url$updated),
+        ".csv",
+        sep = "")
+
+write.csv(bird_data, dataset_name)
