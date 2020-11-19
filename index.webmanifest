@@ -2,8 +2,8 @@
   "name": "Alec B. Luro",
   "short_name": "Alec B. Luro",
   "lang": "en-us",
-  "theme_color": "",
-  "background_color": "",
+  "theme_color": "#3472ed",
+  "background_color": "#3472ed",
   "icons": [{
     "src": "/images/icon_huf70cdd1c94d24a000be3ab48092b58a0_11920_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
