@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>http://www.alecluro.com/</loc>
+    <loc>http://www.alecluro.com/author/alec-b.-luro/</loc>
     <lastmod>2020-09-24T17:56:29-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.alecluro.com/author/alec-b.-luro/</loc>
+    <loc>http://www.alecluro.com/</loc>
     <lastmod>2020-09-24T17:56:29-05:00</lastmod>
   </url>
   
@@ -195,6 +195,11 @@
   <url>
     <loc>http://www.alecluro.com/publication/nest_sanitation/</loc>
     <lastmod>2020-04-23T20:26:02-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.alecluro.com/campus_bird_window_survey_page/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
