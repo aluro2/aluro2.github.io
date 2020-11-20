@@ -1,0 +1,185 @@
+---
+title: "University of Illinois Bird Window Collision Campus Survey Fall 2019-2020"
+header:
+  caption: ''
+  image: bird_windowstrikes_collage.jpg
+profile: no
+reading_time: no
+share: yes
+subtitle: Led by Graduates in Ecology and Evolutionary Biology
+summary: Webpage for bird window collision data analysis reporting.
+comments: no
+output: html_document
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.width = 12, fig.height = 10, fig.path = 'Figs/', fig.align = "center",
+                      echo = TRUE, warning = FALSE, tidy = F)
+```
+
+```{r load packages and import data, echo=FALSE, message=FALSE}
+
+library(tidyverse)
+library(googlesheets)
+library(janitor)
+library(ggthemes)
+library(extrafont)
+library(htmlwidgets)
+library(htmltools)
+library(leaflet)
+library(DT)
+library(stringr)
+library(plotly)
+library(lubridate)
+
+survey_data_paths <-
+  list.files("Data", "UIUC_bird_survey_data_backup", full.names = TRUE)
+
+bird_data <-
+  bind_rows(
+    read.csv(survey_data_paths[1]),
+    read.csv(survey_data_paths[2])) %>%
+  janitor::remove_empty() %>% 
+  mutate(year = as.factor(lubridate::year(date_mm_dd_yyyy)),
+         month = as.factor(lubridate::month(date_mm_dd_yyyy)),
+         month_day = as.factor(format(date_mm_dd_yyyy, format="%m-%d"))) %>%
+  select(year,
+         month,
+         month_day,
+         date_mm_dd_yyyy,
+         any_birds_found_on_route_shift,
+         route_shift,
+         route_name,
+         building_name,
+         building_face_direction,
+         species,
+         found_dead_alive,
+         picture_url_google_photos_album)
+
+# Make a downloadable copy
+write_csv(bird_data, "Data/UIUC_bird_survey_data_all_years.csv")
+
+```
+
+```{r set_options, include=FALSE}
+# For all practicle purposes this should always be FALSE 
+knitr::opts_chunk$set(widgetframe_self_contained = FALSE) # default = FALSE
+
+# For all practicle purposes this should always be TRUE 
+knitr::opts_chunk$set(widgetframe_isolate_widgets = TRUE) # default = TRUE
+```
+
+As of `r format(Sys.time(), '%d %B, %Y')`, our survey has found __`r filter(bird_data, any_birds_found_on_route_shift == "Yes") %>% nrow()`__ birds.
+
+# Species Found
+```{r birds_by_species, echo = FALSE, message = FALSE, width = "95%"}
+
+plot_data <-
+  bird_data %>%
+    filter(any_birds_found_on_route_shift == "Yes",
+           !species %in% c(
+             "NA","Unidentifiable", "unknown", "thrush sp.", "Thrush", "Warbler"),
+           !str_detect(species, "[?]")) %>%
+    select(species) %>%
+    mutate(species = str_trim(species, side = "both"),
+           species = str_extract(species, "[^_]+")) %>%
+    table(.) %>%
+    as_tibble(.) %>%
+    rename(Species = ".",
+           "Number of Birds Found" = n ) %>%
+    arrange(., desc(`Number of Birds Found`), Species) %>%
+    mutate(Species = factor(Species, levels = unique(Species)),
+           Total = sum(`Number of Birds Found`),
+           `Percent of Birds Found` = round(`Number of Birds Found`/Total*100, 1)) 
+
+species_plot <-
+  ggplot(plot_data,
+         aes(
+    text = paste(
+      "Species: ", Species, "\n",
+      "Total: ", `Number of Birds Found`, "\n",
+      "% of Total: ", `Percent of Birds Found`, "\n",
+      sep = ""
+    ))) +
+  geom_linerange(
+    aes(x = Species, ymin = 0, ymax = `Percent of Birds Found`),
+    color = "darkgray",
+    size = 1.5) +
+  geom_point(aes(fill = Species, x = Species, y = `Percent of Birds Found`),
+             color = "darkgrey",  size = 7, shape = 21 ) +
+  scale_fill_viridis_d(direction = -1, option = "plasma") +
+  scale_y_continuous(
+      breaks = function(x) unique(
+        floor(pretty(seq(0, (max(x) + 1) * 1.05))))) +
+  theme_fivethirtyeight() + 
+  theme(#panel.background = element_rect(fill = "black",
+                                        #colour = "black",
+                                       #size = 0.5, linetype = "solid"),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 10),
+        axis.text.y = element_text(size = 14),
+        axis.title = element_text(size = 18, face = "bold"),
+        text = element_text(family = "Calibri", size = 20),
+        legend.position = "none",
+        panel.grid.major.x = element_blank())
+
+
+  #plotly_species_plot <-
+  #  ggplotly(species_plot, tooltip = "text")
+
+  species_plot
+
+
+```
+
+***
+
+## Birds Found by Location
+
+```{r leaflet_interactive_map, echo=FALSE, message=FALSE, warning=FALSE}
+
+building_locations <- 
+  read_csv("Data/campus_building_locations.csv") 
+
+
+bird_map_data <- 
+  bird_data %>% 
+    filter(any_birds_found_on_route_shift == "Yes") %>% 
+    left_join(., building_locations, by = "building_name") %>% 
+    select(species, lat, lon, picture_url_google_photos_album, date_mm_dd_yyyy) %>% 
+    mutate(picture_url_google_photos_album = paste0("<a href='",
+                                                   str_trim(picture_url_google_photos_album),
+                                                   "'>Photo Link</a>", sep = "" ),
+           species = str_extract(species, "[^_]+"),
+           species_date = paste0(species, "\n", date_mm_dd_yyyy, "\n", sep = " ")) %>% 
+  filter(!lat == "NA")
+
+#leaflet_bird_map <-
+  bird_map_data %>% 
+    leaflet() %>%
+    addTiles() %>%
+    addMarkers(., lng = ~lon, lat = ~lat, popup = ~picture_url_google_photos_album,
+               label = ~htmlEscape(species_date),
+               clusterOptions = markerClusterOptions()) 
+
+```
+
+***
+
+[Download Data](Data/UIUC_bird_survey_data_all_years.csv)
+
+***
+
+# Survey participants 
+```{r participants, echo = FALSE, warning=FALSE, message=FALSE}
+participant_names <-
+  read_csv("Data/survey_participants.csv") %>% 
+  select(Name) %>%
+  mutate(Last = str_split_fixed(Name, " ", 2)[,2]) %>%
+  arrange(Last) %>% 
+  select(!Last) %>%
+  rename(Participant = Name) %>% 
+  unique() %>% 
+  as.tibble()
+
+knitr::kable(participant_names, format = "html", booktabs = TRUE)
+```
